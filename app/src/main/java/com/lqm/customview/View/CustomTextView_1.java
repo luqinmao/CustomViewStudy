@@ -125,7 +125,7 @@ public class CustomTextView_1 extends TextView{
 
         mPaint.setColor(Color.BLUE);
         canvas.drawRect(0,0,getMeasuredWidth(),getMeasuredHeight(),mPaint);
-        mPaint.setColor(Color.WHITE);
+        mPaint.setColor(mTitleColor);
         canvas.drawText(mTitleText,getWidth() /2 - mBoundRect.width()/2,
                 getHeight()/2 - mBoundRect.height()/2, mPaint);
 
@@ -145,7 +145,6 @@ public class CustomTextView_1 extends TextView{
         }
         return sb.toString();
     }
-
 
     private int sp2px(int spSize){
        int pxSize =  (int) TypedValue.applyDimension(

@@ -4,19 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.lqm.customview.MainActivity">
 
     <com.lqm.customview.View.CustomTextView_1
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:titleText="标题文字标题文字"
+        android:layout_height="50dp"
+        app:titleText="asdas啊实打实"
         app:titleTextColor="#f0f"
         app:titleTextSize="20sp"
-        android:text="Hello World!"
         android:layout_marginTop="20dp"
         />
+
+    <com.lqm.customview.View.CustomImageView_2
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:image="@mipmap/ic_launcher"
+        app:imageScaleType="center"
+        app:titleText="hello andorid ! "
+        app:titleTextColor="#ff0000"
+        app:titleTextSize="30sp" />
+
+    <com.lqm.customview.View.CustomImageView_2
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:image="@mipmap/ic_launcher"
+        app:imageScaleType="center"
+        app:titleText="helloworldwelcome"
+        app:titleTextColor="#00ff00"
+        app:titleTextSize="20sp" />
+
+    <com.lqm.customview.View.CustomImageView_2
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:image="@mipmap/ic_launcher"
+        app:imageScaleType="center"
+        app:titleText="妹子~"
+        app:titleTextColor="#ff0000"
+        app:titleTextSize="12sp" />
+
+    <Button
+        android:id="@+id/viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewGroup"/>
 
 
 
