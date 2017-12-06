@@ -19,6 +19,7 @@ import com.lqm.customview.R;
 
 /**
  * 可展开的，会呼吸的按钮
+ * http://blog.csdn.net/qq_31715429/article/details/77101114
  */
 public class ExpandableBreathingButton extends View {
 
