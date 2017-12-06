@@ -19,6 +19,7 @@
         <activity android:name=".ViewGroupActivity" />
         <activity android:name=".BezierActivity" />
         <activity android:name=".CustomTextViewActivity" />
+        <activity android:name=".DragBubbleActivity"/>
     </application>
 
 </manifest>

@@ -31,6 +31,12 @@
             android:layout_height="wrap_content"
             android:text="贝塞尔曲线" />
 
+        <Button
+            android:onClick="onClickDragBubble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QQ消息拖拽效果" />
+
 
     </LinearLayout>
 

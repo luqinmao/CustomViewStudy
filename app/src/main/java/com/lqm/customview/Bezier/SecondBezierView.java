@@ -57,6 +57,7 @@ public class SecondBezierView extends View {
         mBezierPaint = new Paint();
         mBezierPaint.setColor(getResources().getColor(R.color.colorAccent));
         mBezierPaint.setStrokeWidth(10);
+        mBezierPaint.setStyle(Paint.Style.STROKE);
         mBezierPath = new Path();
     }
 

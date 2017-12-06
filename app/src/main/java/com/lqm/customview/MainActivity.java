@@ -25,4 +25,8 @@ public class MainActivity extends AppCompatActivity{
     public void onClickBessel(View view){
         startActivity(new Intent(MainActivity.this,BezierActivity.class));
     }
+
+    public void onClickDragBubble(View view){
+        startActivity(new Intent(MainActivity.this,DragBubbleActivity.class));
+    }
 }
