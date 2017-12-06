@@ -37,6 +37,12 @@
             android:layout_height="wrap_content"
             android:text="QQ消息拖拽效果" />
 
+        <Button
+            android:onClick="onClickBezierLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="贝塞尔抛物线轨迹" />
+
 
     </LinearLayout>
 

@@ -29,4 +29,8 @@ public class MainActivity extends AppCompatActivity{
     public void onClickDragBubble(View view){
         startActivity(new Intent(MainActivity.this,DragBubbleActivity.class));
     }
+
+    public void onClickBezierLine(View view){
+        startActivity(new Intent(MainActivity.this,BezierLineActivity.class));
+    }
 }
