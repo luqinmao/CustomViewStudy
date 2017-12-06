@@ -1,8 +1,10 @@
-package com.lqm.customview;
+package com.lqm.customview.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+
+import com.lqm.customview.R;
 
 /**
  * user：lqm

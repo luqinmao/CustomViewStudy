@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.lqm.customview.MainActivity">
+    tools:context="com.lqm.customview.activity.MainActivity">
 
     <LinearLayout
         android:id="@+id/activity_main"
@@ -43,6 +43,12 @@
             android:layout_height="wrap_content"
             android:text="贝塞尔抛物线轨迹" />
 
+
+        <Button
+            android:onClick="onClickExpandView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="可展开的View" />
 
     </LinearLayout>
 

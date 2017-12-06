@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -16,11 +16,12 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ViewGroupActivity" />
-        <activity android:name=".BezierActivity" />
-        <activity android:name=".CustomTextViewActivity" />
-        <activity android:name=".DragBubbleActivity"/>
-        <activity android:name=".BezierLineActivity"/>
+        <activity android:name=".activity.ViewGroupActivity" />
+        <activity android:name=".activity.BezierActivity" />
+        <activity android:name=".activity.CustomTextViewActivity" />
+        <activity android:name=".activity.DragBubbleActivity"/>
+        <activity android:name=".activity.BezierLineActivity"/>
+        <activity android:name=".activity.ExpandViewActivity"/>
     </application>
 
 </manifest>

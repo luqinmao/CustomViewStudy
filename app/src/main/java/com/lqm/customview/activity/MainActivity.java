@@ -1,9 +1,11 @@
-package com.lqm.customview;
+package com.lqm.customview.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import com.lqm.customview.R;
 
 public class MainActivity extends AppCompatActivity{
 
@@ -33,4 +35,8 @@ public class MainActivity extends AppCompatActivity{
     public void onClickBezierLine(View view){
         startActivity(new Intent(MainActivity.this,BezierLineActivity.class));
     }
+    public void onClickExpandView(View view){
+        startActivity(new Intent(MainActivity.this,ExpandViewActivity.class));
+    }
+
 }

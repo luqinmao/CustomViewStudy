@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.lqm.customview.View.ExpandableBreathingButton
+        android:id="@+id/publish_btn"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        app:ebbButtonText="发布"
+        app:ebbButtonTextColor="@color/base_white"
+        app:ebbButtonTextSize="@dimen/medium_text_size"
+        app:ebbInnerCircleColor="#0877f4"
+        app:ebbItemTextColor="@color/base_white"
+        app:ebbItemTextSize="@dimen/large_text_size"
+        app:ebbRectBackgroundColor="#5db8ff" />
+</RelativeLayout>
