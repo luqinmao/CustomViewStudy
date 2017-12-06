@@ -4,7 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 
 /**
- * Created by luqinmao on 2017/8/20.
+ * autour: lqm
+ * desc: ViewGoup
  */
 
 public class ViewGroupActivity extends Activity {

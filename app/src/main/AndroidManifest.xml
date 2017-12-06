@@ -17,6 +17,8 @@
         </activity>
 
         <activity android:name=".ViewGroupActivity" />
+        <activity android:name=".BezierActivity" />
+        <activity android:name=".CustomTextViewActivity" />
     </application>
 
 </manifest>

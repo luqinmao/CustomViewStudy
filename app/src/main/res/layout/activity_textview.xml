@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.lqm.customview.View.CustomTextView_1
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        app:titleText="asdas啊实打实"
+        app:titleTextColor="#f0f"
+        app:titleTextSize="20sp" />
+
+    <com.lqm.customview.View.CustomImageView_2
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:image="@mipmap/ic_launcher"
+        app:imageScaleType="center"
+        app:titleText="hello andorid ! "
+        app:titleTextColor="#ff0000"
+        app:titleTextSize="30sp" />
+
+    <com.lqm.customview.View.CustomImageView_2
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:image="@mipmap/ic_launcher"
+        app:imageScaleType="center"
+        app:titleText="helloworldwelcome"
+        app:titleTextColor="#00ff00"
+        app:titleTextSize="20sp" />
+
+    <com.lqm.customview.View.CustomImageView_2
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:image="@mipmap/ic_launcher"
+        app:imageScaleType="center"
+        app:titleText="妹子~"
+        app:titleTextColor="#ff0000"
+        app:titleTextSize="12sp" />
+</LinearLayout>
