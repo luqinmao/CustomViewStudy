@@ -22,6 +22,7 @@
         <activity android:name=".activity.DragBubbleActivity"/>
         <activity android:name=".activity.BezierLineActivity"/>
         <activity android:name=".activity.ExpandViewActivity"/>
+        <activity android:name=".activity.ExpandMenuActivity" />
     </application>
 
 </manifest>

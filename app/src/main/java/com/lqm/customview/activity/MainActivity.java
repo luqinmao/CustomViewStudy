@@ -38,5 +38,8 @@ public class MainActivity extends AppCompatActivity{
     public void onClickExpandView(View view){
         startActivity(new Intent(MainActivity.this,ExpandViewActivity.class));
     }
+    public void onClickExpandMenuView(View view){
+        startActivity(new Intent(MainActivity.this,ExpandMenuActivity.class));
+    }
 
 }

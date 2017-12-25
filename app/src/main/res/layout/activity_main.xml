@@ -50,6 +50,12 @@
             android:layout_height="wrap_content"
             android:text="可展开的View" />
 
+        <Button
+            android:onClick="onClickExpandMenuView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="可展开菜单LayoutView" />
+
     </LinearLayout>
 
 </ScrollView>

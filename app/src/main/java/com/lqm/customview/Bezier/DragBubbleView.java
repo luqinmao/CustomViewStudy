@@ -228,8 +228,11 @@ public class DragBubbleView extends View{
 
         if (mIsExplosionAnimStart && mCurExplosionIndex < mExplosionDrawables.length) {
             //设置气泡爆炸图片的位置
-            mExplosionRect.set((int) (mBubbleCenterX - mBubbleRadius), (int) (mBubbleCenterY - mBubbleRadius)
-                    , (int) (mBubbleCenterX + mBubbleRadius), (int) (mBubbleCenterY + mBubbleRadius));
+            mExplosionRect.set(
+                    (int) (mBubbleCenterX - mBubbleRadius),
+                    (int) (mBubbleCenterY - mBubbleRadius),
+                    (int) (mBubbleCenterX + mBubbleRadius),
+                    (int) (mBubbleCenterY + mBubbleRadius));
             //根据当前进行到爆炸气泡的位置index来绘制爆炸气泡bitmap
             canvas.drawBitmap(mExplosionBitmaps[mCurExplosionIndex], null, mExplosionRect, mExplosionPaint);
         }
