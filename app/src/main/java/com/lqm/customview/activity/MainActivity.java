@@ -41,5 +41,8 @@ public class MainActivity extends AppCompatActivity{
     public void onClickExpandMenuView(View view){
         startActivity(new Intent(MainActivity.this,ExpandMenuActivity.class));
     }
+    public void onClickWaveProgressView(View view){
+        startActivity(new Intent(MainActivity.this,WaveProgressActivity.class));
+    }
 
 }

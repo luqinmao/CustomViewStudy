@@ -56,6 +56,12 @@
             android:layout_height="wrap_content"
             android:text="可展开菜单LayoutView" />
 
+        <Button
+            android:onClick="onClickWaveProgressView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="水波浪进度框" />
+
     </LinearLayout>
 
 </ScrollView>

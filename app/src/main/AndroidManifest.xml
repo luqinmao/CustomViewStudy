@@ -23,6 +23,7 @@
         <activity android:name=".activity.BezierLineActivity"/>
         <activity android:name=".activity.ExpandViewActivity"/>
         <activity android:name=".activity.ExpandMenuActivity" />
+        <activity android:name=".activity.WaveProgressActivity" />
     </application>
 
 </manifest>

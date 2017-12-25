@@ -62,6 +62,16 @@
         <attr name="button_icon_color" format="color"></attr>
         <attr name="expand_time" format="dimension"></attr>
 
-
     </declare-styleable>
+
+    <declare-styleable name="WaveProgressView">
+        <attr name="wave_color" format="color"></attr>
+        <attr name="second_wave_color" format="color"></attr>
+        <attr name="wave_bg_color" format="color"></attr>
+
+        <attr name="wave_width" format="dimension"></attr>
+        <attr name="wave_height" format="dimension"></attr>
+    </declare-styleable>
+
+
 </resources>
