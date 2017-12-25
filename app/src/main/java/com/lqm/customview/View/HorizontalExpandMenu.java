@@ -114,7 +114,9 @@ public class HorizontalExpandMenu extends RelativeLayout {
         buttonIconSize = typedArray.getDimension(R.styleable.HorizontalExpandMenu_button_icon_size, DensityUtils.dp2px(mContext, 8));
         buttonIconStrokeWidth = typedArray.getDimension(R.styleable.HorizontalExpandMenu_button_icon_stroke_width, 8);
         buttonIconColor = typedArray.getColor(R.styleable.HorizontalExpandMenu_button_icon_color, Color.GRAY);
+        expandAnimTime = typedArray.getInteger(R.styleable.HorizontalExpandMenu_expand_time, 400);
 
+        typedArray.recycle();
         buttonIconPaint = new Paint();
         buttonIconPaint.setColor(buttonIconColor);
         buttonIconPaint.setStyle(Paint.Style.STROKE);
@@ -127,7 +129,6 @@ public class HorizontalExpandMenu extends RelativeLayout {
 
         //
         buttonIconDegrees = 90;//菜单初始状态为展开，所以旋转角度为90，按钮符号为 - 号
-        expandAnimTime = typedArray.getInteger(R.styleable.HorizontalExpandMenu_expand_time, 400);
         isExpand = true;
         anim = new ExpandMenuAnim();
 
